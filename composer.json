@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/symfony-twig-bundle",
+    "description": "Tyhp type definitions for symfony/twig-bundle 7.4.15.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "7.4.15",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/symfony-twig-bundle-impl": "~7.4.15.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/symfony-twig-bundle-impl"
+        }
+    }
+}
